@@ -1,6 +1,8 @@
 # Excel2Latex
 A Python tool to convert Excel sheets to IEEE-style LaTeX {tabular} table code. Features a simple GUI for easy operation, completing the conversion in just 1 second.
 
+Can recognize bold, align, and border lines. Merging cells are supported, like 1*N multicolumn or N*1 multirow, but N*M Merging cells aren't supported.
+
 #### Make sure you install the required pack first (openpyxl, pandas, numpy, pyperclip, PySimpleGUI).
 
 Run GUI_excel2latex.pyw to quick start the GUI, or open GUI_excel2latex.py and then run it.
